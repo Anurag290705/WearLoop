@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donate - WearLoop</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <h2>Donate Item</h2>
+
+    <form id="donationForm">
+      <input type="text" id="itemName" placeholder="Item Name" required>
+
+      <select id="category">
+        <option>Clothes</option>
+        <option>Shoes</option>
+        <option>Accessories</option>
+      </select>
+
+      <input type="text" id="address" placeholder="Pickup Address" required>
+      <input type="date" id="pickupDate" required>
+      <input type="file" id="image" required>
+
+      <button>Submit Donation</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
